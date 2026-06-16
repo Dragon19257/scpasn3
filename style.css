@@ -1,0 +1,79 @@
+body{ /*basic style for whole website. Also styles font plus wrapping of content through padding*/
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(https://cdn.vectorstock.com/i/250p/59/54/confidential-stamp-vector-19035954.avif);
+    background-size: 100%;             /*Positioning and wrapping of background text/image on webpages above covers opacity and colour gradient*/
+    background-attachment: scroll; 
+    background-position: center;        
+}
+
+nav{  /* this styles the navbar itself*/
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul{   /*this styles the word placements in the navbar*/
+    list-style-type: none; /* removes the underline of links */
+    margin: 0;      /* removes space so navbar touches top of page */
+    padding-left: 30px;
+    display: flex;     /* uses flex for the wrapping style */
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 50px;  /* vertically centers links */
+}
+
+nav ul li{     /* this styles the spacing of the words in the navbar */
+    margin-right: 50px;
+}
+
+nav ul li a{    /* this is the style for the text in the navbar*/
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover{   /* this is the style for when you hover over the words in the navbar */
+    color: rgb(218, 214, 214);
+}
+
+footer{ /* this styles the footer of each page */
+    background-color: black;
+    height: 60px;
+    margin: 0;
+    padding-right: 15px;
+}
+
+H1{   /* this is the style for the titles of each page */
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+p{    /* this styles all paragraphs */
+    padding: 15px;
+}
+
+h2{   /* these style all subheadings */
+    padding-left: 20px;
+}
+
+h3{
+    padding-left: 20px;
+}
+
+h4{
+    padding-left: 20px;
+}
+
+img{   /*this styles each image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    filter: drop-shadow(5px 5px 5px);
+    max-width: 80%;
+}
